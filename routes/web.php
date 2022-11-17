@@ -21,7 +21,7 @@ use App\Http\Controllers\ExcelController;
 */
 
 Route::get('/', function () {
-    return view('auth/login');
+    return view('home');
 });
 
 Auth::routes(['verify' => true, 'remember_me'=>false]);
